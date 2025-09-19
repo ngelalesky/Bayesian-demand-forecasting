@@ -59,7 +59,7 @@ Where:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/scooter-demand-model.git
+   git clone https://github.com/ngelalesky/Bayesian-demand-forecasting.git
    cd scooter-demand-model
    ```
 
@@ -232,8 +232,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For questions, suggestions, or collaboration opportunities:
-- **Issues**: [GitHub Issues](https://github.com/yourusername/scooter-demand-model/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/scooter-demand-model/discussions)
+- **Issues**: [GitHub Issues](https://https://github.com/ngelalesky/Bayesian-demand-forecasting/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/ngelalesky/Bayesian-demand-forecasting/discussions)
 
 ---
 
