@@ -148,45 +148,10 @@ For enhanced functionality with real geographic data:
 - **folium**: Interactive mapping
 - **shapely**: Geometric operations
 
-## 🎯 Next Steps & Improvements
-
-### Immediate Enhancements
-
-1. **Real Data Integration**:
-   - Replace synthetic coordinates with actual neighborhood boundaries
-   - Use real scooter usage data and infrastructure metrics
-   - Incorporate temporal patterns (daily/weekly seasonality)
-
-2. **Spatial Correlation**:
-   - Add spatial correlation between neighborhood random effects
-   - Implement Intrinsic Conditional Autoregressive (ICAR) models
-   - Account for spatial clustering of demand patterns
-
-3. **Enhanced Visualization**:
-   - Overlay heatmap on real city maps using `geopandas` and `folium`
-   - Create interactive dashboards with `plotly` or `streamlit`
-   - Add confidence intervals to residual estimates
-
-### Advanced Features
-
-4. **Model Extensions**:
-   - Zero-inflated Poisson models for sparse demand data
-   - Negative binomial models for overdispersed counts
-   - Time-varying coefficients for dynamic demand patterns
-
-5. **Validation & Testing**:
-   - Cross-validation procedures
-   - Model comparison metrics (WAIC, LOO-CV)
-   - Sensitivity analysis for prior specifications
-
-6. **Deployment**:
-   - REST API for real-time demand prediction
-   - Automated model retraining pipeline
-   - Integration with fleet management systems
 
 ## 📚 Technical Details
 
-### Algorithm Complexity
+### Algorithm 
 
 - **Time Complexity**: O(n²) for Laplace approximation, where n is the number of neighborhoods
 - **Space Complexity**: O(n²) for storing covariance matrices
